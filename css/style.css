@@ -1,0 +1,417 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kanit", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+/*header section css code start here*/
+.header-section {
+  width: 100%;
+  background: url("../images/Group 1.png") center top no-repeat;
+  background-size: cover;
+}
+.header-section .menu {
+  width: 100%;
+}
+.menu .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0px 0px 0px 25px;
+}
+.menu .navbar-nav .nav-item .nav-link:hover,
+.menu .navbar-nav .nav-item .nav-link:focus {
+  color: #000;
+}
+.header-section .menu .icons {
+  width: 39%;
+  padding: 10px 0px;
+}
+.header-section .menu .icons ul {
+  padding: 0px;
+  margin: 0px 40px;
+  width: 100%;
+  text-align: right;
+}
+.header-section .menu .icons ul li {
+  list-style: none;
+  display: inline-block;
+}
+.header-section .menu .icons ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  background: #c9223d;
+  color: #fff;
+  margin: 0px 0px 0px 10px;
+  text-align: center;
+}
+.header-section .menu .icons ul li a:hover,
+.header-section .menu .icons ul li a:focus {
+  color: #c9223d;
+  border: 1px solid #c9223d;
+  background: transparent;
+}
+.header-section .banner {
+  width: 100%;
+  padding: 80px 0px;
+}
+.header-section .banner .text {
+  width: 100%;
+  padding: 80px 517px 80px 30px;
+}
+.header-section .banner .text h1 {
+  font-size: 76px;
+  line-height: 86px;
+  font-weight: 700;
+  color: #fedac3;
+  text-transform: uppercase;
+}
+.header-section .banner .text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fedac3;
+}
+.header-section .banner .text .btn-innner {
+  padding: 50px 0px;
+}
+.header-section .banner .text .btn-innner .btn-dark {
+  padding: 3px 10px;
+  border-radius: 10px;
+  color: #fedac3;
+}
+.header-section .banner .text .btn-innner .btn-dark:hover {
+  background: transparent;
+  color: #fedac3;
+  border: 1px solid #fedac3;
+}
+/*headersection css code end here*/
+/*section-1 css code start here*/
+.section-1 {
+  width: 100%;
+  padding: 80px 0px;
+}
+.section-1 .line {
+  width: 100%;
+}
+.section-1 .line img {
+  width: 59%;
+  height: 5px;
+}
+.section-1 .line h1 {
+  ont-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.section-1 .card {
+  width: 100%;
+  padding: 80px 0px;
+  border: none;
+}
+.section-1 .card .card-img-top {
+  width: 110px;
+  line-height: 115px;
+  transform: translate(110%, 0%);
+}
+.section-1 .card .card-body {
+  width: 100%;
+  padding: 20px 53px;
+  text-align: center;
+}
+.section-1 .card .card-body .card-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+}
+.section-1 .card .card-body .card-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #000;
+}
+/*section-1 css code end here*/
+/*section-2 css code start here*/
+.section-2 {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../images/Group 2.png") center top no-repeat;
+  background-size: cover;
+}
+.section-2 .text {
+  width: 100%;
+  padding: 50px 0px 50px 450px;
+}
+.section-2 .text h1 {
+  font-size: 76px;
+  line-height: 86px;
+  font-weight: 700;
+  color: #fedac3;
+  text-transform: uppercase;
+}
+.section-2 .text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fedac3;
+}
+.section-2 .text .btn-innner {
+  padding: 50px 0px;
+}
+.section-2 .text .btn-innner .btn-dark {
+  padding: 3px 10px;
+  border-radius: 10px;
+  color: #fedac3;
+  background: #c9223d;
+  border: 1px solid #c9223d;
+}
+.section-2 .text .btn-innner .btn-dark:hover {
+  background: transparent;
+  color: #fedac3;
+  border: 1px solid #fedac3;
+}
+/*section-2 css code end here*/
+/*section-3 css code start here*/
+.section-3 {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../images/Group 3.png") center top no-repeat;
+  background-size: cover;
+}
+.section-3 .av {
+  width: 100%;
+}
+.section-3 .av h1 {
+  font-size: 200px;
+  line-height: 210px;
+  font-weight: 900;
+  color: #fedac3;
+  text-transform: uppercase;
+}
+.section-3 .av h4 {
+  font-size: 25px;
+  line-height: 35px;
+  text-transform: capitalize;
+  color: #fedac3;
+}
+.section-3 .av h2 {
+  font-size: 35px;
+  line-height: 45px;
+  color: #fedac3;
+  stext-transform: capitalize;
+}
+/*section-3 css code end here*/
+/*section-4 css code start here*/
+.section-4 {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../images/Group 4.png") center top no-repeat;
+  background-size: cover;
+}
+.section-4 .itext {
+  width: 100%;
+  padding: 20px 615px 0px 40px;
+}
+.section-4 h1 {
+  font-size: 75px;
+  line-height: 85px;
+  font-weight: 700;
+  color: #fedac3;
+  text-transform: uppercase;
+}
+.section-4 p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fedac3;
+}
+.section-4 .pic {
+  width: 100%;
+}
+.pic img {
+  padding: 10px 15px 10px 10px;
+}
+.section-4 .btn-primary {
+  margin: 60px 0px 60px;
+  padding: 0px 60px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  background: #c9223d;
+  border-radius: 5px;
+  border: 1px solid #c9223d;
+}
+.section-4 .btn-primary:hover {
+  color: #fedac3;
+  background: transparent;
+  border: 1px solid #fedac3;
+}
+.section-4 .btn-primary:focus {
+  color: #fedac3;
+  background: transparent;
+  border: 1px solid #fedac3;
+}
+/*section-4 css code end here*/
+/*section-5 css code start here*/
+.section-5 {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../images/Group 5.png") center top no-repeat;
+  background-size: cover;
+}
+.section-5 .itext {
+  width: 100%;
+  padding: 20px 615px 0px 40px;
+  margin: 0px 50px 0px 602px;
+}
+.section-5 h1 {
+  font-size: 75px;
+  line-height: 85px;
+  font-weight: 700;
+  color: #fedac3;
+  text-transform: uppercase;
+}
+.section-5 p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fedac3;
+}
+.section-5 .pic {
+  width: 100%;
+}
+.pic img {
+  padding: 10px 15px 10px 10px;
+}
+.section-5 .btn-primary {
+  margin: 60px 0px 60px;
+  padding: 0px 60px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fedac3;
+  text-transform: uppercase;
+  background: #000;
+  border-radius: 5px;
+  border: 1px solid #c9223d;
+}
+.section-5 .btn-primary:hover {
+  color: #fedac3;
+  background: transparent;
+  border: 1px solid #fedac3;
+}
+.section-5 .btn-primary:focus {
+  color: #fedac3;
+  background: transparent;
+  border: 1px solid #fedac3;
+}
+/*section-5 css code end here*/
+/*section-6 css code start here*/
+.section-6 {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../images/Group 6 .png") center top no-repeat;
+  background-size: cover;
+}
+.section-6 .inner-text {
+  width: 100%;
+  text-align: center;
+  padding: 10px 345px;
+}
+.section-6 .inner-text h1 {
+  font-size: 56px;
+  line-height: 66px;
+  font-weight: 700;
+  color: #fedac3;
+  text-transform: uppercase;
+}
+.section-6 .inner-text p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fedac3;
+}
+.section-6 form {
+  text-align: center;
+  width: 600px;
+  height: 55px;
+  background: #fff;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.section-6 form input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.section-6 form button {
+  background: #c9223d;
+  padding: 10px 50px;
+  margin: 0px -12px 0px 0px;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+/*section-6 css code end here*/
+/*section-7 css code start here*/
+.section-7 {
+  width: 100%;
+  padding: 80px 0px;
+  background: #c9223d;
+}
+.section-7 .ul {
+  width: 100%;
+}
+.section-7 .ul .active {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.section-7 .ul li {
+  list-style: none;
+  display: block;
+  margin: 0px 0px 10px;
+}
+.section-7 .ul li a {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}
+/*section-7 css code end here*/
+/*footer section start here*/
+.footer {
+  width: 100%;
+  background: #1d232e;
+}
+.footer p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #6b6b6b;
+  margin: 10px 0px;
+  text-align: center;
+}
+/*footer section start end here*/

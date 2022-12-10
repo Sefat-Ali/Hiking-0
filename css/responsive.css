@@ -1,0 +1,53 @@
+@media (min-width: 279px) and (max-width: 320px){
+/*css start*/
+	/*header section start*/
+	.menu .navbar-nav .nav-item .nav-link{
+		text-align: center;
+	}
+	.header-section .banner .text{
+		padding: 0px;
+	}
+	.header-section .banner .text h1{
+		font-size: 50px;
+    	line-height: 60px;
+	}
+	.header-section .banner .text p{
+		font-size: 14px;
+    	line-height: 24px;
+	}
+	/*header section end*/
+
+/*css end*/
+}
+
+
+
+
+@media (min-width: 321px) and (max-width: 767px){
+/*css start*/
+	/*header section start*/
+	.menu .navbar-nav .nav-item .nav-link{
+		text-align: center;
+	}
+	.header-section .banner .text{
+		padding: 0px;
+	}
+	.header-section .banner .text h1{
+		font-size: 50px;
+    	line-height: 60px;
+	}
+	.header-section .banner .text p{
+		font-size: 14px;
+    	line-height: 24px;
+	}
+	/*header section end*/
+
+/*css end*/	
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+	
+}
